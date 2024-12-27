@@ -1,6 +1,3 @@
-Aquí tienes el contenido del README en formato **Markdown** listo para ser añadido al repositorio:
-
-```markdown
 # **Inlaze Test Automation**
 
 ## **Descripción del Proyecto**
@@ -36,20 +33,6 @@ El proyecto utiliza **Selenium**, **TestNG**, y un diseño basado en **Page Obje
 ---
 
 ## **Estructura del Proyecto**
-```
-src/
-├── main/
-│   └── java/
-│       ├── pages/                 # Clases Page Object Model
-│       └── utils/                 # Clases auxiliares (ExtentManager, WebDriverConfig, TestUtils)
-├── test/
-│   └── java/
-│       └── tests/                 # Clases de Pruebas TestNG (LoginTests, SignUpTests)
-build.gradle                       # Configuración de Gradle
-testng.xml                         # Suite de pruebas TestNG
-screenshots/                       # Capturas de pantalla generadas automáticamente
-extent-report.html                 # Reporte HTML generado por ExtentReports
-```
 
 ---
 
@@ -65,7 +48,7 @@ Antes de ejecutar este proyecto, asegúrate de tener instalados los siguientes r
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/tuusuario/inlaze-test-automation.git
-   ```
+
 2. Abre el proyecto en **IntelliJ IDEA**.
 3. Sincroniza las dependencias de Gradle.
 4. Configura el navegador (opcional; manejado automáticamente por WebDriverManager).
@@ -117,5 +100,6 @@ Este proyecto está bajo la licencia [MIT](LICENSE).
 
 ---
 
-¡Con esta estructura, tu proyecto estará completamente documentado en GitHub! Si necesitas ayuda para modificar o ampliar este archivo, no dudes en decirlo. 😊
-```
+
+
+
